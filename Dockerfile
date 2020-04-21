@@ -4,4 +4,4 @@ WORKDIR /go/src/app
 COPY . .
 RUN go get -v
 RUN go build -v
-CMD ["./app"]
+CMD ["./bot"]
